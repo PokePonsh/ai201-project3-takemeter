@@ -17,3 +17,16 @@ The r/hypixelskyblock community is a subreddit created for Hypixel skyblock, a p
 ## Hard Edge Case Solutions
 
 For some posts on r/hypixelskyblock, the above labels would not be exact, for example cases where someone shares their opinion on a person/aspect of the community, while also asking about how to change something. In cases like these, those posts would be pushed away from the "vibes" label towards the appropriate label towards the question. This will be done because, although the post is mostly about the community rather than a specific game aspect, the ultimate goal of the post was to recieve an answer to the question, or the question would not have been posed. In this way, we can ensure that the question posed is answered, although most of the post was community focused rather than question based. An additional edge case that we could face is a post that could fall into both the Specific and Opinions label. In this edge case, the label assigned would be Opinions, because although  a factual question was posed, the opinion question would relate into the factual question, and the factual answer would be used to add context to the opinion answer rather than be a full answer to the post.
+
+## Data collection
+
+I will collect data from r/hypixelskyblock. When collecting my data I will begin by labeling the top 200 most recent posts from the subreddit, as the more modern information should allow previous information to be sorted, as it is just more niche examples of previous content. Once the top 200 posts are sorted, I will check for deficiency in any of my labels. If this is found I will search for more examples of these types of data, and add them to my existing 200 posts.
+
+## Evaluation Plan
+
+I will evaluate my data seperation based on whether the seperated data can be properly responded to in the way that that label is intended. For example, If an opinion question is answerable via only a specific game opinion/piece of advice. Additionally, another check I can make is whether there are any non-question posts in the Specifics label, as only question type posts should be sorted into it. The Opinions label can also be checked like the Specifics label, with the exception of "Guide-like" posts, which explain an opinionated "best way" to achieve something. 
+
+## Defenition of Success
+
+For my sorter to be deemed a "success" It should be able to sort all text-based posts on r/hypixelskyblock into the three labels, in a way in which a person can enter any label, and only answer questions in the type that falls into the labels. While it would be ideal to also be able to sort image-based posts (which are not uncommon on the subreddit), a program without this feature should be "good enough" for deployment into the community, as on reddit image based posts are easily spottable, and would be increadibly easy to scan out when looking through the labels. While it would be nice to be able to sort images in a manner like this through our labels, that would require both image scanning capabilities for the program, and the ability to have "game knowledge" as many things in the game are entirely ununderstandable to someone or something that is unaware of how the game looks, plays, or is played.
+
