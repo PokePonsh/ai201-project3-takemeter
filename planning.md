@@ -30,3 +30,7 @@ I will evaluate my data seperation based on whether the seperated data can be pr
 
 For my sorter to be deemed a "success" It should be able to sort all text-based posts on r/hypixelskyblock into the three labels, in a way in which a person can enter any label, and only answer questions in the type that falls into the labels. While it would be ideal to also be able to sort image-based posts (which are not uncommon on the subreddit), a program without this feature should be "good enough" for deployment into the community, as on reddit image based posts are easily spottable, and would be increadibly easy to scan out when looking through the labels. While it would be nice to be able to sort images in a manner like this through our labels, that would require both image scanning capabilities for the program, and the ability to have "game knowledge" as many things in the game are entirely ununderstandable to someone or something that is unaware of how the game looks, plays, or is played.
 
+## AI Usage
+
+For this project, I plan to use AI in two ways. Way 1 has already been completed at the time of writing planning.md, I used cluade chatbot to help me stress test my catagorie labels to see if they hold up properly for succesfully labeling posts in r/hypixelskyblock. The second use for AI that I will use in this project is understanding failures in my sorting system. I will input what didn't sort correctly, and ask AI to find similarities in the posts for me to see what the issue is, and how I can fix them.
+
