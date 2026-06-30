@@ -11,6 +11,17 @@ For this project, I got information from r/hypixelskyblock, a reddit community f
 
 ## Evaluation Report
 
+Baseline Model overall accuracy: 0.767
+|         |precision |reacall |f1-score |support |
+|---------|----------|-------|---------|--------|
+| vibes| 0.75| 1.00| 0.86| 6|
+| opinions| 1.00| 0.46| 0.63| 13|
+| specifics| 0.69| 1.00| 0.81| 11|
+| accuracy| | | 0.77| 30|
+| macro avg| 0.81| 0.82| 0.77| 30|
+| weighted avg| 0.84| 0.77| 0.74| 30|
+
+
 Fine tuned Model overall accuracy: 0.33
 |         |precision |reacall |f1-score |support |
 |---------|----------|-------|---------|--------|
