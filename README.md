@@ -58,6 +58,34 @@ Fine tuned model confusion matrix:
 
 ## Fine-tuned Model Wrong analysis #1
 
+- Failed Text: https://www.reddit.com/r/HypixelSkyblock/comments/1ubybcu/finally_realized_just_how_much_flint_i_got_from/
+- True Value: vibes
+- Predicted Value: specifics
+- Confidence: 0.67
+Explination: This error was caused due to a rhetorical question present in the post. The filter did not realize that it was rhetorical, and not intended to actually be answered. This caused the post to come off as a specific question of whether the person should do something, rather than the post's initial comical value.
+
 ## Fine-tuned Model Wrong analysis #2
 
+- Failed Text:https://www.reddit.com/r/HypixelSkyblock/comments/1u9jag5/mushroom_farms_with_20_bps/
+- True Value: specifics
+- Predicted Value: opinions
+- Confidence: 0.51
+Explination: This question confused the system due to the fact that this was a searching question. The user was looking for something specific, hence the true label of specific. However, this question can come off as opinion, as they are asking many people for something that isn't a specific game mechanic, although having 1 correct answer, this edge case caused confusion for the system.
+
 ## Fine-tuned Model Wrong analysis #3
+
+- Failed Text: https://www.reddit.com/r/HypixelSkyblock/comments/1uavy4t/accessories/
+- True Value: specifics
+- Predicted Value: opinions
+- Confidence:  0.77
+Explination: Honestly, I am not entirelyy sure why this example did not compute correctly. It seems pretty clearly a specifics questions to me, but my best guess as to why it was clasified as opinions is due to the user mentioning a specific example that the system was not familiar with, causing it to appear as they are asking an opinion about the topic, rather than their actual question.
+
+## Fine-tuned Model Correct example
+
+- Succedded text: https://www.reddit.com/r/HypixelSkyblock/comments/1u9zlvo/how_to_max_lion_pet_fast/
+- True/predicted Value: opinions
+- Confidence: 0.73
+Explination: This makes sense to have come off as correct. This post asks a question about the "best way" to do something. While there are some ways that are definitely better than others, this question is subjective, as there are multiple different methods that could efficiently achieve the desired goal, rather than one best one.
+
+## Reflection
+
