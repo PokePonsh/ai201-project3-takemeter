@@ -12,7 +12,7 @@ For this project, I got information from r/hypixelskyblock, a reddit community f
 ## Evaluation Report
 
 Fine tuned Model overall accuracy: 0.33
-|         |precision |reacll |f1-score |support |
+|         |precision |reacall |f1-score |support |
 |---------|----------|-------|---------|--------|
 | vibes| 1.00| 0.17| 0.29| 6|
 | opinions| 0.42| 0.62| 0.50| 13|
@@ -20,3 +20,9 @@ Fine tuned Model overall accuracy: 0.33
 | accuracy| | | 0.33| 30|
 | macro avg| 0.51| 0.29| 0.29| 30|
 | weighted avg| 0.42| 0.33| 0.31| 30|
+
+Fine tuned model confusion matrix:
+|vibes|1|1|4|
+|opinions|0|8|5|
+|specifics|0|10|1|
+||vibes|opinions|specifics|
