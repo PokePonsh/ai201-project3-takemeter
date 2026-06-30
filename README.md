@@ -22,8 +22,8 @@ Fine tuned Model overall accuracy: 0.33
 | weighted avg| 0.42| 0.33| 0.31| 30|
 
 Fine tuned model confusion matrix:
-|--------------------|:--------------------:|:--------------------:|:--------------------:|
 |vibes(True)|1|1|4|
+|--------------------|:--------------------:|:--------------------:|:--------------------:|
 |opinions(True)|0|8|5|
 |specifics(True)|0|10|1|
 ||vibes(Predicted)|opinions(predicted)|specifics(predicted)|
