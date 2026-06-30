@@ -37,7 +37,9 @@ For my finetuning approach, I used the reccomended base model, but I did change 
 - 8 batching size
 - 1e-5 learning rate
 - 20 warmup step
+
 Fine tuned Model overall accuracy: 0.33
+
 |         |precision |reacall |f1-score |support |
 |---------|----------|-------|---------|--------|
 | vibes| 1.00| 0.17| 0.29| 6|
