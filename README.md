@@ -23,6 +23,7 @@ Fine tuned Model overall accuracy: 0.33
 
 Fine tuned model confusion matrix:
 |vibes|1|1|4|
+|--------|--------|--------|--------|
 |opinions|0|8|5|
 |specifics|0|10|1|
 ||vibes|opinions|specifics|
