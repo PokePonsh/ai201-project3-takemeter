@@ -4,9 +4,9 @@
 
 For this project, I got information from r/hypixelskyblock, a reddit community focuses on the skyblock gamemode on the hypixel minecraft server. I split the possible posts in this community into three distinct labels.
 
--`vibes`: A collection of any general community questions and people's unique experiences with the game.
--`opinions`: People's opinions, and requests for other's opinions.
--`specifics`: Questions pertaining to specific game rules and mechanics.
+-vibes: A collection of any general community questions and people's unique experiences with the game.
+-opinions: People's opinions, and requests for other's opinions.
+-specifics: Questions pertaining to specific game rules and mechanics.
 
 ## Evaluation Report
 
