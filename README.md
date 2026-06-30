@@ -89,3 +89,12 @@ Explination: This makes sense to have come off as correct. This post asks a ques
 
 ## Reflection
 
+Throughout the Fine-tuned model of the evaluation, the biggest challange that the model had appeared to be differentiating betweeen the opinions and specifics catagories. While I wanted it to be able to differentiate the difference between an opinion-based, and fact-based question, it appeared to struggle with this differentiation quite a lot, more ofen assigning the statements incorrectly rather than correctly. This is most likely a problem with my original labels, as the intention of the questions might not have been a strong enough border for the seperation I wanted to occur.
+
+## Spec Reflections
+
+My specs helped me throughout this process, mainly though having me really nail down what I thought would be really strong labels for this project. This process began off with very different labels, but as I worked through the specs for this project I realized that these catagories would not have seperated well, and did not have strong borders whatsoever. So I created these new ones. Where however my specs failed was in the process of creating the fine-tuned model. I was initially going to use the provided specs for tuning the model, this however did not work well, as the tuning came out even worse than it is now, causing me to have to stray from my specs, and change the tuning to hopefully improve the fine-tuned model.
+
+## AI Usage
+
+One way in which I used AI during this project was asking it for an initial test of my labels, I did this asking the AI to create posts in the style of r/hyixelskyblock, labeled them myself, and then provided my labels to the AI and compared as to how we labeled them. This was mostly successful, beyond a few instances in which I had to override their labeling, as it genuinly did not make sense to include it in that catagory. The second and primary way I used AI in this project was asking for help finding similarities in the things it got wrong, and learned about the tendency to flip opinions and specifics more often than not.
